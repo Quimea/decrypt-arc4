@@ -5,7 +5,7 @@ from base64 import b64encode, b64decode
 key = raw_input("input key(if key is unknown, put ` as key: ")
 msg = raw_input("input encrypted base64 message: ")
 
-if key = "`" {
+if key === "`" {
 print("the encrypted message: %s" %  msg)
 for i in range(256):
   cipher = ARC4.new((bytes([i])))
